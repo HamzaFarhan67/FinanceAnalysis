@@ -1,0 +1,57 @@
+[project]
+name = "financeai"
+version = "0.1.0"
+description = "Multi-Agent Financial AI System"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.0,<3.0",
+    "fastapi>=0.115,<1.0",
+    "logfire[fastapi]>=3.8,<5.0",
+    "pandas>=2.2,<3.0",
+    "pydantic>=2.8,<3.0",
+    "pydantic-ai[groq]>=2.0.0",
+    "pydantic-ai-harness",
+    "pydantic-settings>=2.4,<3.0",
+    "pyjwt>=2.9,<3.0",
+    "sqlalchemy>=2.0,<3.0",
+    "psycopg>=3.3.4",
+    "psycopg-binary>=3.3.4",
+    "pgvector>=0.3,<1.0",
+    "mcp>=1.28.1",
+    "numpy>=2.0",
+    "matplotlib>=3.9,<4.0",
+    "markitdown>=0.1,<1.0",
+    "chonkie>=1.0,<2.0",
+    "google-genai>=1.0,<2.0",
+    "openai>=2.45.0",
+    "pwdlib[argon2]>=0.2,<1.0",
+    "python-multipart>=0.0.9",
+    "uvicorn>=0.30,<1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11,<0.12",
+]
+
+[build-system]
+requires = ["hatchling>=1.27,<2.0"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "RUF", "UP"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/financeai"]
