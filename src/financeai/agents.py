@@ -38,15 +38,14 @@ class AgentState:
     db: Session
     current_user_id: int
 
-
+# Option 1: Meta Llama 3.3 70B Instruct (Recommended for tool calling & general logic)
 opencode_model = OpenAIChatModel(
-    "deepseek-v4-flash-free",  # or "opencode/claude-sonnet-4-5", "opencode/qwen3-coder-480b", etc.
+    "openrouter/free",  # Automatically routes to any available free model
     provider=OpenAIProvider(
-        base_url="https://opencode.ai/zen/v1",
-        api_key=os.environ["OPENCODE_API_KEY"],
+        base_url="https://openrouter.ai/api/v1",
+        api_key=os.environ["OPENROUTER_API_KEY"],
     ),
 )
-
 
 transaction_agent = Agent(
     # 'google:gemini-2.5-flash',

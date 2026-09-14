@@ -27,7 +27,14 @@ function IconSparkle({ className = "" }: { className?: string }) {
 
 function IconPlus({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" className={className}>
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      className={className}
+    >
       <path d="M12 5v14M5 12h14" />
     </svg>
   );
@@ -35,7 +42,15 @@ function IconPlus({ className = "" }: { className?: string }) {
 
 function IconChat({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+    >
       <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
     </svg>
   );
@@ -43,7 +58,15 @@ function IconChat({ className = "" }: { className?: string }) {
 
 function IconEdit({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+    >
       <path d="M17 3a2.83 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" />
     </svg>
   );
@@ -51,7 +74,15 @@ function IconEdit({ className = "" }: { className?: string }) {
 
 function IconTrash({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+    >
       <path d="M3 6h18M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m3 0-1 14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2L4 6h16z" />
     </svg>
   );
@@ -59,7 +90,15 @@ function IconTrash({ className = "" }: { className?: string }) {
 
 function IconLogout({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+    >
       <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9" />
     </svg>
   );
@@ -67,7 +106,15 @@ function IconLogout({ className = "" }: { className?: string }) {
 
 function IconSummarize({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+    >
       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
       <path d="M14 2v6h6M9 13h6M9 17h6M9 9h1" />
     </svg>
@@ -76,7 +123,15 @@ function IconSummarize({ className = "" }: { className?: string }) {
 
 function IconBot({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+    >
       <rect x="4" y="8" width="16" height="12" rx="3" />
       <path d="M12 8V4M9 2h6" />
       <circle cx="9" cy="14" r="1.2" fill="currentColor" stroke="none" />
@@ -88,7 +143,15 @@ function IconBot({ className = "" }: { className?: string }) {
 
 function IconPaperclip({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+    >
       <path d="M21.44 11.05 12.25 20.24a5 5 0 0 1-7.07-7.07l9.19-9.19a3.5 3.5 0 0 1 4.95 4.95L9.64 18.36a2 2 0 0 1-2.83-2.83l8.49-8.48" />
     </svg>
   );
@@ -104,7 +167,14 @@ function IconSend({ className = "" }: { className?: string }) {
 
 function IconClose({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className={className}>
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      className={className}
+    >
       <path d="M18 6 6 18M6 6l12 12" />
     </svg>
   );
@@ -691,13 +761,56 @@ export default function ChatInterface() {
   }
 
   // --- RENDER MAIN CHAT INTERFACE IF LOGGED IN ---
+
   return (
     <div className="flex h-screen w-screen bg-[#131313] text-zinc-100 antialiased overflow-hidden">
+      <style jsx global>{`
+        @keyframes brandBreathe {
+          0%, 100% {
+            transform: scale(1);
+            box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.35);
+          }
+          50% {
+            transform: scale(1.2);
+            box-shadow: 0 0 0 6px rgba(249, 115, 22, 0);
+          }
+        }
+        .animate-brand-breathe {
+          animation: brandBreathe 3s ease-in-out infinite;
+        }
+        @keyframes floatBot {
+          0%,
+          100% {
+            transform: translateY(0px) rotate(0deg);
+          }
+          50% {
+            transform: translateY(-9px) rotate(-2deg);
+          }
+        }
+        .animate-float-bot {
+          animation: floatBot 1s ease-in-out infinite;
+        }
+
+        @keyframes glowRing {
+          0% {
+            box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.5);
+          }
+          70% {
+            box-shadow: 0 0 0 16px rgba(249, 115, 22, 0);
+          }
+          100% {
+            box-shadow: 0 0 0 0 rgba(249, 115, 22, 0);
+          }
+        }
+        .animate-glow-ring {
+          animation: glowRing 2s ease-out infinite;
+        }
+      `}</style>
       {/* Sidebar */}
       <aside className="h-screen w-64 shrink-0 border-r border-white/10 bg-[#181818] flex flex-col py-6 px-3">
         {/* Brand */}
         <div className="flex items-center gap-3 mb-8 px-2">
-          <div className="w-10 h-10 rounded-full bg-orange-500/15 flex items-center justify-center border border-orange-500/40 shrink-0">
+          <div className="animate-brand-breathe w-10 h-10 rounded-full bg-orange-500/15 flex items-center justify-center border border-orange-500/40 shrink-0">
             <IconSparkle className="w-5 h-5 text-orange-400" />
           </div>
           <div className="overflow-hidden">
@@ -772,7 +885,6 @@ export default function ChatInterface() {
           </div>
         </div>
       </aside>
-
       {/* Main Content Area */}
       <main className="flex-1 flex flex-col h-screen relative min-w-0">
         {/* Top App Bar */}
@@ -863,7 +975,7 @@ export default function ChatInterface() {
             </div>
           ) : messages.length === 0 ? (
             <div className="w-full max-w-[800px] mt-6 md:mt-12 mb-8 flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-2xl bg-[#232323] border border-white/10 flex items-center justify-center mb-6 shadow-lg shadow-black/20">
+              <div className="animate-float-bot animate-glow-ring w-16 h-16 rounded-2xl bg-[#232323] border border-white/10 flex items-center justify-center mb-6 shadow-lg shadow-black/20">
                 <IconBot className="w-8 h-8 text-orange-400" />
               </div>
               <h3 className="text-3xl md:text-4xl font-bold text-white mb-2">
@@ -871,8 +983,8 @@ export default function ChatInterface() {
               </h3>
               <p className="text-zinc-400 mb-10 max-w-lg">
                 I'm your personal finance assistant. I can analyse your
-                transactions, visualise your spending, and search your
-                uploaded documents. What would you like to explore today?
+                transactions, visualise your spending, and search your uploaded
+                documents. What would you like to explore today?
               </p>
 
               {/* Suggestion buttons */}
@@ -1009,7 +1121,7 @@ export default function ChatInterface() {
               })}
             </div>
           )}
-            <div ref={messagesEndRef} />
+          <div ref={messagesEndRef} />
         </div>
 
         {/* Input Area */}
@@ -1047,10 +1159,7 @@ export default function ChatInterface() {
                       setUploadStatus("uploading");
                       const formData = new FormData();
                       formData.append("file", file);
-                      formData.append(
-                        "user_id",
-                        String(currentUser?.user_id),
-                      );
+                      formData.append("user_id", String(currentUser?.user_id));
                       try {
                         const res = await fetch(
                           "http://localhost:8000/api/upload",
@@ -1105,8 +1214,8 @@ export default function ChatInterface() {
               </button>
             </form>
             <p className="text-center text-[11px] text-zinc-600 mt-2 font-mono">
-              FinanceAI may produce inaccurate information about people,
-              places, or facts.
+              FinanceAI may produce inaccurate information about people, places,
+              or facts.
             </p>
           </div>
         </div>
